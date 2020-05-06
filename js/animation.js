@@ -92,7 +92,7 @@ window.addEventListener('scroll', function () {
 
 
 
-        if(window.screen.width <901 && window.screen.width >554){
+        if(window.screen.width <901){
             if (posNosotros < 500 && posNosotros > -1000) {                
                 titulo_nosotros.style.opacity = "1";
                 titulo_nosotros.style.top = "0";
