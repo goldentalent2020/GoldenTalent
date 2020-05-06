@@ -21,12 +21,15 @@ footer .container{
     margin-bottom: 15px;
 }
 
-footer .content{
+footer .content-phone,footer .content{
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: white !important;
 }
 
 footer .rsocial{
