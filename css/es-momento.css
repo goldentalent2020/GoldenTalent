@@ -1,0 +1,77 @@
+.es-momento .container-header{
+    background-color: #ffde59;
+}
+
+.es-momento .title{
+    padding: 70px 0px 35px 0px;
+}
+
+.es-momento .text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.es-momento-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.es-momento-item{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+
+.container-item{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.es-momento-image{
+    width: 100%;
+    display: flex;
+    max-width: 150px;
+    position: relative;
+    bottom: 15px;
+    justify-content: center;
+}
+
+.es-momento-image img{
+    width: 114px;
+}
+
+.es-momento-text{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width:892px){
+    .es-momento-item{
+        width: 50%;
+    }
+
+    .es-momento .title{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:545px){
+    .es-momento-item{
+        width: 100%;
+    }
+}

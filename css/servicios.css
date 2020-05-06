@@ -1,0 +1,94 @@
+.servicios{
+    position:relative;
+    background: url(../img/servicios.png) no-repeat fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 800px; 
+    color: white;
+}
+
+.servicios .text{
+    text-align: center;
+}
+
+.servicios-items{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicios-item{
+    width: 33%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-item-image{
+    width: 50px;
+}
+
+.servicios-item-text{
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajuste{
+    margin-top: 11px;
+}
+
+
+@media(max-width:1249px){
+
+    .servicios-items{
+        justify-content: center;
+    }
+
+    .servicios-item{
+        width: 290px;
+    }
+}
+
+
+@media(max-width:1238px){
+
+    .servicios-item{
+        width: 250px;
+    }
+}
+
+
+@media(max-width:892px){
+
+    .servicios-item{
+        width: 33%;
+    }
+}
+
+
+@media(max-width:892px){
+
+    .servicios-item{
+        width: 50%;
+    }
+}
+
+@media(max-width:545px){
+
+    .servicios-item{
+        width: 100%;
+    }
+}

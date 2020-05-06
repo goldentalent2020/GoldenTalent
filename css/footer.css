@@ -1,0 +1,86 @@
+footer{
+    background-color: black;
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item{
+    width: 33%;
+    color: white;
+    margin: 75px 0px;
+}
+
+.footer-item-title{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+footer .content{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer .rsocial{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .rsocial img{
+    width: 14%;
+    min-width: 50px;
+    max-width: 70px;
+}
+
+#direccion{
+    order: 3;
+}
+
+#email{
+    order: 2;
+}
+
+
+
+@media(max-width:900px){
+    footer .container{
+        flex-direction: column;
+    }
+
+    footer .content{
+        height: 0px;
+    }
+
+    .footer-item{
+        width: 100%;
+        margin: 0px 0px;
+        padding-bottom: 15px;
+    }
+
+    .rsocial{
+        margin-top: 50px;
+    }
+    #telefonos .footer-item-title{
+        margin-bottom: 20px;
+    }
+
+        
+    #direccion{
+        order: 2;
+    }
+
+    #email{
+        order: 3;
+    }
+
+}

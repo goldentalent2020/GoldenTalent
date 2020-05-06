@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: #ffde59;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 4px;
+}
+
+.margen{
+    padding: 0px 8%;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 70px 0px 35px 0px;
+}   
+
+.body-text-color{
+    color: #4f4f4f;
+}
+
+.text{
+    font-size: 17px;
+}
+
+@media(max-width:500px){
+    
+    .text-transform{
+        display: none;
+    }
+
+    .margen{
+        padding: 0px 4%;
+    }
+}

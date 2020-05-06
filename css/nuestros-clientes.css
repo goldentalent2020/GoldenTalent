@@ -1,0 +1,94 @@
+.clientes{
+    padding-bottom: 70px;
+}
+.carrousel{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrousel-content{
+    width: 95%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carrousel-item{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carrousel img{
+    width: 12%;
+}
+
+i.arrow{
+    cursor: pointer;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, .5);
+    -webkit-text-stroke: 1px lightgrey;
+}
+
+#item-1, #item-2, #next, #prev{
+    -webkit-transition: all 1s ease;
+}
+
+/*diseño mobile*/
+
+.mobile-carrousel{
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    display: none;
+}
+
+.mobile-carrousel-content{
+    width: 95%;
+    height: 155px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-carrousel-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    -webkit-transition: all 1s ease;
+}
+
+.mobile-carrousel-item img{
+    width: 250px;
+}
+
+
+
+@media(max-width: 900px){
+    .carrousel{
+        display: none;
+    }
+
+    .mobile-carrousel{
+        display: flex;
+    }
+}
+
+@media(max-width:424px){
+    .mobile-carrousel-item img{
+        width: 150px;
+    }
+}
