@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Talent</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,800;0,900;1,400&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/es-momento.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/nuestros-clientes.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="margen" id="navbar">
+        <div class="logo" id="logo-animation">
+            <img src="img/logo.jpeg" alt="">
+        </div>
+        <div class="menu">
+            <a class="menu-item menu-animation-1" href="#nosotros" onclick="hideNavbar();">Nosotros</a>
+            <a class="menu-item menu-animation-2" href="#servicios" onclick="hideNavbar();">Servicios</a>
+            <a class="menu-item menu-animation-1" href="#ayudar" onclick="hideNavbar();">Tiempo de ayudar</a>
+            <a class="menu-item menu-animation-2" href="#contacto" onclick="hideNavbar();">Contacto</a>
+            <a class="menu-item menu-animation-1" href="#clientes" onclick="hideNavbar();">Clientes</a>
+        </div>
+        <div class="hamburguer" id="hamburguer-animation">
+            <i class="material-icons md-24" onclick="showMenu();">menu</i>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="margen">
+            <a class="menu-item" href="#nosotros" onclick="hideNavbar();">Nosotros</a>
+            <a class="menu-item" href="#servicios" onclick="hideNavbar();">Servicios</a>
+            <a class="menu-item" href="#ayudar" onclick="hideNavbar();">Tiempo de ayudar</a>
+            <a class="menu-item" href="#contacto" onclick="hideNavbar();">Contacto</a>
+            <a class="menu-item" href="#clientes" onclick="hideNavbar();">Clientes</a>
+        </div>
+    </div>
+
+
+    <section class="landing" id="landing">
+        <div class="texts">
+            <h1 id="animation-landing-1">Soluciones de reclutamiento y <br> head hunting</h1>
+            <p id="animation-landing-2">¡Somos un equipo de expertos comprometidos con una misma meta!</p>
+        </div>
+        <div class="image" id="animation-landing-3">
+            <img src="img/landing.png" alt="">
+        </div>
+    </section>
+
+    <section class="nosotros" id="nosotros">
+        <div class="title" id="nosotros-1">
+            Nosotros
+        </div>
+
+        <div class="content margen" >
+            <div class="image">
+                <img src="img/nosotros.png" id="nosotros-2">
+            </div>
+            <div class="text body-text-color" id="nosotros-3">
+                En <b>GOLDEN TALENT</b> detectamos y potenciamos el talento de las personas, lo vinculamos con
+                compañías en distintos momentos de evolución,
+                Start up, Pymes, empresas institucionalizadas, asi como familiares, brindando a nuestros clientes
+                personal especializado para optimizar su operación laboral, ayudando a lograr sus metas de negocio.
+
+                <br><br>
+                <span class="text-transform">
+                    Somos una empresa joven pero altamente competitiva en el mercado,
+                    dedicada a la busqueda de la atracción de talento. Para nosotros
+                    es importante conocer tus necesidades a través de un proceso de
+                    consultoría y headhunting. Entendiendo tu requerimiento nos enfocamos
+                    en tu objetivo principal para encontrar al candidato ideal.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicios margen" id="servicios">
+        <div class="title" id="servicios-1">
+            Servicios
+        </div>
+        <div class="text" id="servicios-2">
+            La integridad de nuestros clientes, seguirá siendo el motivo por el cual depositamos toda nuestra confianza
+            en cada uno de ellos, garantizando siempre, el éxito en nuestras relaciones comerciales.
+            <br> <br> Nuestro proceso de selección permite que podamos trabajar de la mano en la medida que tú
+            prefieras, o bien,
+            recibir solo los resultados que necesitas de tus candidatos.
+        </div>
+
+        <div class="servicios-items">
+
+            <div class="servicios-item">
+                <img src="img/reclutamiento.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text">Reclutamiento y selección</div>
+            </div>
+
+            <div class="servicios-item">
+                <img src="img/psicometría.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text ajuste">Psicometría</div>
+            </div>
+
+            <div class="servicios-item">
+                <img src="img/socioeconomico.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text ajuste">Estudios Socioeconómicos</div>
+            </div>
+            <div class="servicios-item">
+                <img src="img/headhunting.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text">Head hunting</div>
+            </div>
+
+            <div class="servicios-item">
+                <img src="img/administracion_de_personal.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text">Administración de Personal</div>
+            </div>
+
+            <div class="servicios-item">
+                <img src="img/garantias.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text">Garantías</div>
+            </div>
+
+            <div class="servicios-item">
+                <img src="img/background.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text">Background check</div>
+            </div>
+            <div class="servicios-item">
+                <img src="img/evaluaciones.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text ajuste">Training y capacitación</div>
+            </div>
+
+            <div class="servicios-item">
+                <img src="img/reclutamiento.svg" alt="" class="servicios-item-image">
+                <div class="servicios-item-text">Evaluaciones Polimétricas y Poligráficas</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="es-momento" id="ayudar">
+        <div class="container-header margen">
+            <div class="title" id="animation-momento-1">Es momento de apoyar</div>
+            <div class="text" id="animation-momento-2">
+                Sabemos que el factor económico es crucial en este momento y es aqui donde <b>Golden Talent</b> se sitúa
+                para impulsar a las empresas
+                y pone su granito de arena para la reactivación de la economía, poniendo a tu alcance todos los esquemas
+                de pago que puedas
+                proponer con base a tus necesitades. Porque entendemos que, para un escenario sin precedentes,
+                necesita soluciones determinantes.
+
+                <br><br>
+                Hoy más que nunca, nos aliamos a cada uno de ustedes y nuestro potencial se suma a tu fuerza para que
+                juntos encontremos la
+                mejor solución para impulsar nuevamente tu negocio.
+            </div>
+        </div>
+        <div class="es-momento-items margen">
+
+            <div class="es-momento-item">
+                <div class="container-item">
+                    <div class="es-momento-image">
+                        <img src="img/negocios.svg" alt="">
+                    </div>
+                    <div class="es-momento-text">
+                        Intercambio de <br> negocios
+                    </div>
+                </div>
+            </div>
+            <div class="es-momento-item">
+                <div class="container-item">
+                    <div class="es-momento-image">
+                        <img src="img/alianzas.svg" alt="">
+                    </div>
+                    <div class="es-momento-text">
+                        Alianzas <br> comerciales
+                    </div>
+                </div>
+            </div>
+            <div class="es-momento-item">
+                <div class="container-item">
+                    <div class="es-momento-image">
+                        <img src="img/lineas_credito.svg" alt="">
+                    </div>
+                    <div class="es-momento-text">
+                        Lineas de crédito
+                    </div>
+                </div>
+            </div>
+            <div class="es-momento-item">
+                <div class="container-item">
+                    <div class="es-momento-image">
+                        <img src="img/intercambio.svg" alt="">
+                    </div>
+                    <div class="es-momento-text">
+                        Planes de pago
+                    </div>
+                </div>
+            </div>
+            <div class="es-momento-item">
+                <div class="container-item">
+                    <div class="es-momento-image">
+                        <img src="img/apoyo.svg" alt="">
+                    </div>
+                    <div class="es-momento-text">
+                        Apoyo especial a <br> sector salud
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="title contacto-item id="animation-contacto-1">Contacto</div>
+        <div class="container margen" id="animation-contacto-2">
+            <div class="datos">
+                <label for="nombre" id="labelNombre" class="contacto-item">Nombre: </label>
+                <input type="text" id="nombre" onchange="validaNombre();" class="contacto-item">
+                <label for="telefono" id="labelTelefono" class="contacto-item">Teléfono:</label>
+                <input type="text" id="telefono" onchange="validaNumero();" class="contacto-item">
+                <label for="mail" id="labelMail" class="contacto-item">Correo:</label>
+                <input type="mail" id="mail" onchange="validaCorreo();" class="contacto-item">
+            </div>
+            <div class="mensaje">
+                <label for="mensaje" id="labelMensaje" class="contacto-item">Mensaje</label>
+                <textarea name="" id="mensaje" class="contacto-item"></textarea>
+                <div class="container-rs">
+                    <button onclick="enviarMensaje();" class="contacto-item">ENVIAR</button>
+                    <div class="siguenos">
+                        <div class="contacto-item">SIGUENOS EN: </div>
+                        <img src="img/fbg.svg" alt="" class="contacto-item">
+                        <img src="img/ling.svg" alt="" class="contacto-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="clientes" id="clientes">
+        <div class="title">Nuestros Clientes</div>
+        <div class="carrousel margen">
+            <i class="material-icons arrow" id="prev" onclick="left();">keyboard_arrow_left</i>
+            <div class="carrousel-content">
+                <div class="carrousel-item" id="item-1">
+                    <img src="img/orogold.png" alt="">
+                    <img src="img/mureni.png" alt="">
+                    <img src="img/di.png" alt="">
+                    <img src="img/vans.jpg" alt="">
+                    <img src="img/agasys.png" alt="">
+                </div>
+                <div class="carrousel-item" id="item-2">
+                    <img src="img/karpen.jpg" alt="">
+                    <img src="img/tca.jpg" alt="">
+                    <img src="img/vine.png" alt="">
+                    <img src="img/elevations.jpg" alt="">
+                    <img src="img/celestolite.png" alt="">
+                </div>
+            </div>
+            <i class="material-icons arrow" id="next" onclick="right();">keyboard_arrow_right</i>
+        </div>
+        <div class="mobile-carrousel margen">
+            <i class="material-icons arrow" id="mprev" onclick="mobileLeft();">keyboard_arrow_left</i>
+                <div class="mobile-carrousel-content">
+                    <div class="mobile-carrousel-item" id="m-item-1"><img src="img/tca.jpg" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-2"><img src="img/vine.png" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-3"><img src="img/elevations.jpg" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-4"><img src="img/celestolite.png" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-5"><img src="img/orogold.png" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-6"><img src="img/mureni.png" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-7"><img src="img/di.png" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-8"><img src="img/vans.jpg" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-9"><img src="img/agasys.png" alt=""></div>
+                    <div class="mobile-carrousel-item" id="m-item-0"><img src="img/karpen.jpg" alt=""></div>
+                </div>
+            <i class="material-icons arrow" id="mnext" onclick="mobileRight();">keyboard_arrow_right</i>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container margen">
+            <div class="footer-item" id="direccion">
+                <div class="footer-item-title">Dirección:</div>
+                <br>
+                <div class="content">
+                    Presa Salinillas #370, Piso 3,
+                    <br> Col. Irrigación, Miguel Hidalgo,
+                    <br> CDMX.
+                </div>
+            </div>
+            <div class="footer-item" id="email">
+                <div class="footer-item-title">Email:</div>
+                <br>
+                <div class="content">
+                    reclutamiento@goldentalent.mx
+                </div>
+                <div class="rsocial">
+                    <img src="img/fba.svg" alt="" class="img-rsocial">
+                    <img src="img/lina.svg" alt="" class="img-rsocial">
+                </div>
+            </div>
+            <div class="footer-item" id="telefonos">
+                <div class="footer-item-title">Telefonos: </div>
+                <br>
+                <div class="content">
+                    Oficina. 5513284265
+                    <br>Móvil. 5618183531
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="js/goldenTalend.js"></script>
+    <script src="js/mensajes.js"></script>
+    <script src="js/carrousel.js"></script>
+    <script src="js/animation.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('a[href^="#"]').click(function () {
+                var destino = $(this.hash);
+                if (destino.length == 0) {
+                    destino = $('a[name="' + this.hash.substr(1) + '"]');
+                }
+                if (destino.length == 0) {
+                    destino = $('html');
+                }
+                $('html, body').animate({
+                    scrollTop: destino.offset().top
+                }, 500);
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
